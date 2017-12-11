@@ -9,7 +9,7 @@ This repository contains a device driver of Morse Code Translator using LED work
 ```
 git clone https://github.com/masash1/robosys1.git
 ```
-* Move to the directory and run make and make insert commands.
+* Move to the directory and run 'make' and 'make insert' commands.
 ```
 cd robosys1
 make && make insert
@@ -26,7 +26,7 @@ make remove
 * Better to add a resistance
 
 ## Usage
-* Write the words you would like to translate between echo and >
+* Write the words you would like to translate between 'echo' and '> /dev/myled0'
 ```
 echo fuck my life > /dev/myled0
 ```
