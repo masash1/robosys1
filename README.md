@@ -5,7 +5,7 @@ A customized device driver for Raspberry Pi 3
 This repository contains a device driver of Morse Code Translator using LED working on Rasperry Pi 3 (Raspbian).
 
 ## Software Setup
-* Clone this repository
+* Clone this repository.
 ```
 git clone https://github.com/masash1/robosys1.git
 ```
@@ -19,14 +19,14 @@ make && make insert
 make remove
 ```
 ## Hardware Setup (Example)
-* Connect a LED between GPIO25 and GND
+* Connect a LED between GPIO25 and GND.
   * GPIO25: 22 pin
   * GND: 39 pin
   * The positive (longer lead) should be connected to GPIO25
-* Better to add a resistance
+* Better to add a resistance.
 
 ## Usage
-* Write the words you would like to translate between 'echo' and '> /dev/myled0'
+* Write the words you would like to translate between 'echo' and '> /dev/myled0'.
 ```
 echo fuck my life > /dev/myled0
 ```
